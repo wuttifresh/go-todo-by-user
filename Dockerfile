@@ -6,6 +6,6 @@ COPY . .
 
 RUN go mod download
 
-RUN go build ./todo/main.go
+RUN go build -o ./main ./todo/main.go
 
-CMD ["/example/todolist"]
+CMD ["./main"]

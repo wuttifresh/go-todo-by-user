@@ -20,7 +20,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=todo1234
       - MYSQL_DATABASE=todo
-      - MYSQL_USER=root
+      - MYSQL_USER=todo
       - MYSQL_PASSWORD=todo1234
     volumes:
       - my-db:/var/lib/mysql
